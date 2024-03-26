@@ -186,3 +186,49 @@ header h1 {
 i {
   padding-right: 3px;
 }
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 4vw;
+  }
+  
+  nav {
+    font-size: 3vw;
+  }
+  
+  .intro-heading {
+    width: 20vw;
+    margin-right: 10vw;
+  }
+  
+  .h-text {
+    font-size: 10vw;
+  }
+  
+  .intro-paragraph {
+    font-size: 4vw;
+  }
+  
+  header h1 {
+    font-size: 8vw;
+  }
+  
+  .header-paragraph {
+    font-size: 4vw;
+  }
+  
+  .nl {
+    font-size: 2vw;
+  }
+  
+  .search-input {
+    font-size: 2vw;
+  }
+  
+  .sections div {
+    font-size: 4vw;
+  }
+}
+
