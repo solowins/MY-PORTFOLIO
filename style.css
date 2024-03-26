@@ -23,6 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   background-color: #000;
   height: 8vh;
   /* Reduce header height for smaller screens */
@@ -41,7 +42,7 @@ nav {
   background-color: #fff;
 }
 
-intro-heading {
+.intro-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,6 +59,9 @@ intro-heading {
 }
 
 .intro-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   text-align: center;
   width: 60%;
   /* Adjust width relative to parent container */
@@ -125,11 +129,14 @@ header h1 {
 
 ::placeholder {
   color: #fff;
+  font-size: 1.5vw;
 }
 
 .main-section {
   height: 70vh;
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -138,6 +145,7 @@ header h1 {
 
 .sections {
   display: flex;
+  flex-wrap:wrap;
   background-color: #dae7e3;
   height: 70vh;
   /* Adjust height relative to viewport height */
@@ -203,7 +211,6 @@ i {
   
   .intro-heading {
     width: 20vw;
-    margin-right: 10vw;
   }
   
   .h-text {
@@ -212,6 +219,10 @@ i {
   
   .intro-paragraph {
     font-size: 4vw;
+  }
+
+  ::placeholder{
+    font-size: 2.5vw;
   }
   
   header h1 {
