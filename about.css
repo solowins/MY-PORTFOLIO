@@ -1,0 +1,101 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #08b57b;
+  min-height: 50vh; /* Set a minimum height to ensure content is visible */
+  color: #fff;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 6vw; /* Adjust font size relative to viewport width */
+}
+
+.header-paragraph {
+  font-size: 2vw; /* Adjust font size relative to viewport width */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 8vh; /* Adjust header height for smaller screens */
+  width: 100%;
+}
+
+.logo {
+  width: 14vw; /* Adjust logo width relative to viewport width */
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#fff;
+}
+
+.logo:hover{background-color:#305e03;}
+
+
+main {
+  background-color: #85a098;
+  min-height: 56vh; /* Set a minimum height to ensure content is visible */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+main h2 {
+  margin-left: 10vw; /* Adjust margin relative to viewport width */
+  font-size: 3vw; /* Adjust font size relative to viewport width */
+  color: #fff;
+  margin-top: 1vh;
+}
+
+main h3 {
+  max-width: 480px; /* Set maximum width */
+  font-size: 2vw; /* Adjust font size relative to viewport width */
+  background-color: #008006;
+}
+
+main p {
+  font-size: 2vw; /* Adjust font size relative to viewport width */
+  margin: 0 1vw; /* Adjust margin relative to viewport width */
+}
+
+footer {
+  min-height: 36vh; /* Set a minimum height to ensure content is visible */
+  width: 100%;
+  background-color: #000;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3vw; /* Adjust font size relative to viewport width */
+  padding-top: 2vh; /* Adjust padding relative to viewport height */
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4vh; /* Adjust margin relative to viewport height */
+}
+
+footer a {
+  color: #008006;
+  text-decoration: none;
+}
+

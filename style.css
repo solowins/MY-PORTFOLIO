@@ -1,0 +1,188 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Include padding and border in element's total width and height */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #08b57b;
+  height: 50vh;
+  color: #fff;
+  font-size: 2vw;
+  /* Adjust font size relative to viewport width */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  height: 8vh;
+  /* Reduce header height for smaller screens */
+  width: 100%;
+  font-size: 1.5vw;
+  /* Adjust font size relative to viewport width */
+}
+
+.logo {
+  width: 14vw;
+  /* Adjust logo width relative to viewport width */
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.intro-heading {
+  width: 10vw;
+  /* Adjust width relative to viewport width */
+  margin-right: 16vw;
+  /* Adjust margin relative to viewport width */
+}
+
+.h-text {
+  font-size: 7vw;
+  /* Adjust font size relative to viewport width */
+  color: aliceblue;
+}
+
+.intro-paragraph {
+  width: 80%;
+  /* Adjust width relative to parent container */
+  max-width: 400px;
+  /* Set maximum width */
+  margin: 0 auto;
+  /* Center horizontally */
+  font-size: 2vw;
+  /* Adjust font size relative to viewport width */
+  background-color: #008006;
+  padding-left: 2vw;
+}
+
+header h1 {
+  font-size: 6vw;
+  /* Adjust font size relative to viewport width */
+}
+
+.header-paragraph {
+  font-size: 2vw;
+  /* Adjust font size relative to viewport width */
+}
+
+.nl {
+  display: flex;
+  list-style-type: none;
+  width: 80%;
+  /* Adjust width relative to parent container */
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5vw;
+  /* Adjust font size relative to viewport width */
+}
+
+.nl a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.one:hover, .two:hover, .three:hover {
+  background-color: #305e03;
+  height: 7vh;
+}
+
+.nl li {
+  flex: 1;
+  /* Distribute list items evenly */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.search-input {
+  width: 70%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 1.5vw;
+  /* Adjust font size relative to viewport width */
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.main-section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dae7e3;
+}
+
+.sections {
+  display: flex;
+  background-color: #dae7e3;
+  height: 70vh;
+  /* Adjust height relative to viewport height */
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.sections div {
+  width: 30%;
+  /* Adjust width relative to parent container */
+  height: 90%;
+  /* Adjust height relative to parent container */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+  font-size: 2vw;
+  /* Adjust font size relative to viewport width */
+}
+
+.sections a {
+  text-decoration: none;
+  color: #008006;
+  background-color: #f7fff0;
+  border-radius: 18%;
+}
+
+.sections a:hover {
+  color: #91f32f;
+}
+
+.section-1 {
+  background-image: url('img/portfolio-03.jpg');
+  background-size: cover;
+}
+
+.section-2 {
+  background-image: url('img/portfolio-04.jpg');
+  background-size: cover;
+}
+
+.section-3 {
+  background-image: url('img/portfolio-09.jpg');
+  background-size: cover;
+}
+
+i {
+  padding-right: 3px;
+}

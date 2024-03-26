@@ -1,0 +1,121 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #08b57b;
+  min-height: 50vh;
+  color: #fff;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 6vw;
+}
+
+.header-paragraph {
+  font-size: 2vw;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #000;
+  height: 8vh;
+  width: 100%;
+}
+
+.logo {
+    width: 14vw; /* Adjust logo width relative to viewport width */
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+  }
+  
+  .logo:hover{background-color:#305e03;}
+
+main {
+  background-color: #85a098;
+  min-height: 100vh; /* Adjust minimum height to fill the viewport */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  background-image: url('img/services-bg.jpg');
+        background-size: cover;
+}
+
+.intro-section {
+  font-size: 2vw;
+  margin-top: 1vh;
+}
+
+.sections-heading {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 2vw;
+  margin-top: 4vh; /* Adjust margin for better spacing */
+  color: #08b57b;
+}
+
+#dev {
+  margin-left: 6vw;
+}
+
+.sections-paragraph div {
+  width: 29%; /* Adjust width for better responsiveness */
+  margin: 4vh 2vw 0;
+}
+
+.sections-paragraph {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw; /* Adjust font size for better readability */
+}
+
+footer {
+  min-height: 36vh;
+  width: 100%;
+  background-color: #000;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3vw;
+  padding-top: 2vh;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+footer a {
+  color: #008006;
+  text-decoration: none;
+}
