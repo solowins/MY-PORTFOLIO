@@ -41,10 +41,13 @@ nav {
   background-color: #fff;
 }
 
-.intro-heading {
+intro-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 10vw;
   /* Adjust width relative to viewport width */
-  margin-right: 16vw;
+  text-align: center;
   /* Adjust margin relative to viewport width */
 }
 
@@ -220,7 +223,7 @@ i {
   }
   
   .nl {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   
   .search-input {
