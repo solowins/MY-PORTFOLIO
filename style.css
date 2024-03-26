@@ -55,7 +55,8 @@ nav {
 }
 
 .intro-paragraph {
-  width: 80%;
+  text-align: center;
+  width: 60%;
   /* Adjust width relative to parent container */
   max-width: 400px;
   /* Set maximum width */
@@ -64,7 +65,6 @@ nav {
   font-size: 2vw;
   /* Adjust font size relative to viewport width */
   background-color: #008006;
-  padding-left: 2vw;
 }
 
 header h1 {
