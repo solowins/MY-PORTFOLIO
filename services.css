@@ -70,6 +70,7 @@ main {
 .sections{
   display: flex;
   flex-direction: row;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items:center;
@@ -164,5 +165,46 @@ footer a {
   
   footer a {
     font-size: 3vw;
+  }
+}
+
+/* Targeting larger tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header h1 {
+    font-size: 8vw; /* Adjust font size for larger tablets */
+  }
+
+  .header-paragraph {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+
+  main {
+    padding: 1vw; /* Adjust padding for larger tablets */
+    min-height: auto;
+  }
+
+  .intro-section {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+
+  .section-heading {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+
+  .section-1, .section-2, .section-3 {
+    width: 40%; /* Adjust width for larger tablets */
+    margin: 2vh 2vw; /* Adjust margin for larger tablets */
+  }
+
+  .sections-paragraph {
+    font-size: 2vw; /* Adjust font size for larger tablets */
+  }
+
+  .footer-1 {
+    font-size: 4vw; /* Adjust font size for larger tablets */
+  }
+  
+  footer a {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
   }
 }

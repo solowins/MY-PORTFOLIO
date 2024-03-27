@@ -140,3 +140,36 @@ footer a {
     font-size: 3vw;
   }
 }
+
+
+/* Targeting larger tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header h1 {
+    font-size: 8vw; /* Adjust font size for larger tablets */
+  }
+  
+  .header-paragraph {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+  
+  main h2 {
+    font-size: 4vw; /* Adjust font size for larger tablets */
+  }
+  
+  main h3 {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  main p {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+    margin: 0 1.5vw; /* Adjust margin for larger tablets */
+  }
+  
+  .footer-1 {
+    font-size: 4vw; /* Adjust font size for larger tablets */
+  }
+  
+  footer a {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+}
