@@ -67,26 +67,27 @@ main {
   margin-top: 1vh;
 }
 
-.sections-heading {
+.sections{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-  font-size: 2vw;
-  margin-top: 4vh; /* Adjust margin for better spacing */
-  color: #08b57b;
+  justify-content: space-evenly;
+  align-items:center;
 }
 
-#dev {
-  margin-left: 6vw;
-}
-
-.sections-paragraph div {
+.section-1, .section-2, .section-3{
   width: 29%; /* Adjust width for better responsiveness */
   margin: 4vh 2vw 0;
 }
 
-.sections-paragraph {
+.section-heading{
+  display: flex;
+  justify-content: center;
+  font-size: 2vw; 
+  color: #08b57b;
+}
+
+.section-paragraph {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -125,42 +126,38 @@ footer a {
 
 /* Media Queries for Responsive Design */
 
+
 @media screen and (max-width: 768px) {
   header h1 {
     font-size: 10vw;
   }
-  
+
   .header-paragraph {
     font-size: 4vw;
   }
-  
+
   main {
     min-height: auto;
     padding: 2vw;
   }
-  
+
   .intro-section {
     font-size: 4vw;
   }
-  
-  .sections-heading {
+
+  .section-heading {
     font-size: 4vw;
-    margin-top: 8vw;
   }
-  
-  #dev {
-    margin-left: 0;
-  }
-  
-  .sections-paragraph div {
+
+  .section-1, .section-2, .section-3 {
     width: 90%;
-    margin: 4vh 0;
+    margin: 2vh 0;
   }
-  
+
   .sections-paragraph {
     font-size: 3vw;
   }
-  
+
   .footer-1 {
     font-size: 5vw;
   }
