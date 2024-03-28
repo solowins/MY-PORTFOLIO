@@ -65,6 +65,7 @@ main h2 {
   font-size: 3vw; /* Adjust font size relative to viewport width */
   color: #fff;
   margin-top: 1vh;
+  background-color:pink;
 }
 
 main h3 {
@@ -82,10 +83,11 @@ main p {
   font-size: 2vw; /* Adjust font size relative to viewport width */
   margin: 0 1vw; /* Adjust margin relative to viewport width */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 footer {
