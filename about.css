@@ -83,7 +83,7 @@ main h3 {
 }
 
 .two{
-  width: 100%;
+  width: 90%;
   text-align: justify;
 }
 
@@ -95,6 +95,8 @@ main p {
   justify-content:center;
   align-items:center;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
