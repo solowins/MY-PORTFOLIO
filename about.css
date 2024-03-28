@@ -91,7 +91,7 @@ main p {
   align-items:center;
   flex-wrap: wrap;
   text-align: center;
-  text-align-last: left;
+  text-align-last: justify;
 }
 
 footer {
