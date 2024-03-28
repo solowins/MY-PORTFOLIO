@@ -82,6 +82,11 @@ main h3 {
   background-color: #008006;
 }
 
+.two{
+  width: 100%;
+  text-align: justify;
+}
+
 main p {
   font-size: 2vw; /* Adjust font size relative to viewport width */
   margin: 0 1vw; /* Adjust margin relative to viewport width */
@@ -90,8 +95,6 @@ main p {
   justify-content:center;
   align-items:center;
   flex-wrap: wrap;
-  text-align: center;
-  text-align-last: justify;
 }
 
 footer {
