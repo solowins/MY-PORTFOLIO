@@ -60,6 +60,7 @@ main h2 {
   display: flex;
   flex-direction: row;
   justify-content:center;
+  align-items:center;
   flex-wrap: wrap;
   font-size: 3vw; /* Adjust font size relative to viewport width */
   color: #fff;
@@ -70,6 +71,7 @@ main h3 {
   display: flex;
   flex-direction: row;
   justify-content:center;
+  align-items:center;
   flex-wrap: wrap;
   max-width: 480px; /* Set maximum width */
   font-size: 2vw; /* Adjust font size relative to viewport width */
@@ -79,6 +81,11 @@ main h3 {
 main p {
   font-size: 2vw; /* Adjust font size relative to viewport width */
   margin: 0 1vw; /* Adjust margin relative to viewport width */
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
 }
 
 footer {
