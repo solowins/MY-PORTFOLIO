@@ -93,6 +93,8 @@ main p {
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  word-spacing: .09em;
+  letter-spacing: .02em;
   flex-wrap: wrap;
   text-align: center;
 }
