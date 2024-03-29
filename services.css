@@ -81,7 +81,6 @@ main {
 .section-1, .section-2, .section-3{
   width: 29%; /* Adjust width for better responsiveness */
   margin: 4vh 2vw 0;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -169,6 +168,8 @@ footer a {
 
   .section-paragraph {
     font-size: 3.8vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-1 {
