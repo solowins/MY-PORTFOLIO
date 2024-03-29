@@ -105,7 +105,8 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em; /* Adjust font size for better readability */
+  text-align: justify;
+  font-size: 1.6vw; /* Adjust font size for better readability */
 }
 
 footer {
@@ -158,7 +159,7 @@ footer a {
   }
 
   .section-heading {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   .section-1, .section-2, .section-3 {
@@ -166,8 +167,8 @@ footer a {
     margin: 2vh 0;
   }
 
-  .sections-paragraph {
-    font-size: 3.5vw;
+  .section-paragraph {
+    font-size: 3.8vw;
   }
 
   .footer-1 {
@@ -199,7 +200,7 @@ footer a {
   }
 
   .section-heading {
-    font-size: 3vw; /* Adjust font size for larger tablets */
+    font-size: 3.2vw; /* Adjust font size for larger tablets */
   }
 
   .section-1, .section-2, .section-3 {
@@ -207,8 +208,8 @@ footer a {
     margin: 2vh 2vw; /* Adjust margin for larger tablets */
   }
 
-  .sections-paragraph {
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  .section-paragraph {
+    font-size: 2.7vw; /* Adjust font size for larger tablets */
   }
 
   .footer-1 {
