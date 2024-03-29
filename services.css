@@ -168,8 +168,9 @@ footer a {
 
   .section-paragraph {
     display: flex;
-    justify-content: center;
     font-size: 3.8vw;
+    width: 100%;
+    margin-left: auto;
   }
 
   .footer-1 {
