@@ -71,8 +71,8 @@ main {
 .sections{
   display: flex;
   flex-direction: row;
-  width: 100%;
   height: auto;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
@@ -93,17 +93,19 @@ main {
   justify-content: center;
   align-items:center;
   font-size: 2vw; 
-  color: #08b57b;
   margin-bottom: 2vh;
+  color: #08b57b;
 }
 
 .section-paragraph {
   width: 100%;
   display: flex;
+  word-spacing: .09em;
+  letter-spacing: .02em;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 1.8vw; /* Adjust font size for better readability */
+  font-size: 1.2em; /* Adjust font size for better readability */
 }
 
 footer {
@@ -160,7 +162,7 @@ footer a {
   }
 
   .section-1, .section-2, .section-3 {
-    width: 45%;
+    width: 100%;
     margin: 2vh 0;
   }
 
