@@ -167,9 +167,9 @@ footer a {
   }
 
   .section-paragraph {
+    display: flex;
+    justify-content: center;
     font-size: 3.8vw;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .footer-1 {
