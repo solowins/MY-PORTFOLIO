@@ -104,7 +104,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  text-align: justify;
+  text-align: center;
   font-size: 1.6vw; /* Adjust font size for better readability */
 }
 
@@ -167,10 +167,7 @@ footer a {
   }
 
   .section-paragraph {
-    display: flex;
     font-size: 3.8vw;
-    width: 100%;
-    margin-left: auto;
   }
 
   .footer-1 {
