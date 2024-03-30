@@ -35,7 +35,7 @@ nav {
 
 .logo {
   width: 14vw; /* Adjust logo width relative to viewport width */
-  height: 7vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,7 +146,7 @@ footer a {
   }
   
   main p {
-    font-size: 3vw;
+    font-size: 3.8vw;
     margin: 0 2vw;
   }
   
@@ -179,7 +179,7 @@ footer a {
   }
   
   main p {
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
+    font-size: 2.7vw; /* Adjust font size for larger tablets */
     margin: 0 1.5vw; /* Adjust margin for larger tablets */
   }
   

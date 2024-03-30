@@ -37,7 +37,7 @@ nav {
 
 .logo {
   width: 14vw; /* Adjust logo width relative to viewport width */
-  height: 7vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
