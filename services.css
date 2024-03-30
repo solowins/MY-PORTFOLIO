@@ -79,6 +79,7 @@ main {
   display: flex;
   justify-content: center;
   align-items:flex-end;
+  margin-top: 4vh;
 }
 
 .sections{
@@ -176,7 +177,7 @@ footer a {
   }
 
   .section-1, .section-2, .section-3 {
-    width: 100%;
+    width: 90%;
     margin: 2vh 0;
   }
 
