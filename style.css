@@ -118,7 +118,8 @@ header h1 {
 
 .one:hover, .two:hover, .three:hover {
   background-color: #305e03;
-  height: 7vh;
+  height: 8vh;
+  width: 14vw;
 }
 
 .nl li {
