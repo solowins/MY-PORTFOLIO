@@ -116,6 +116,7 @@ main {
   letter-spacing: .02em;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 500px;
   align-items: center;
   text-align: center;
   font-size: 1.6vw; /* Adjust font size for better readability */

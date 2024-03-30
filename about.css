@@ -98,23 +98,22 @@ main h3 {
   width: 90%;
   margin-top: 4vh;
   margin-bottom: 4vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
 }
 
 main p {
   font-size: 2vw; /* Adjust font size relative to viewport width */
   margin: 0 1vw; /* Adjust margin relative to viewport width */
-  
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
   word-spacing: .09em;
   letter-spacing: .02em;
-  max-width: 750px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
-  text-align: justify;
+  text-align: center;
 }
 
 footer {
