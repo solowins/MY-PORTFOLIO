@@ -76,9 +76,9 @@ main h2 {
   justify-content:center;
   align-items:center;
   flex-wrap: wrap;
-  font-size: 3vw; /* Adjust font size relative to viewport width */
+  font-size: 3.2vw; /* Adjust font size relative to viewport width */
   color: #fff;
-  margin-top: 1vh;
+  margin-top: 6vh
 }
 
 main h3 {
@@ -90,7 +90,7 @@ main h3 {
   flex-wrap: wrap;
   width: 100%;
   max-width: 480px; /* Set maximum width */
-  font-size: 2.2vw; /* Adjust font size relative to viewport width */
+  font-size: 2vw; /* Adjust font size relative to viewport width */
   background-color: #008006;
 }
 
