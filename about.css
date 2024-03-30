@@ -1,9 +1,20 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
+@font-face {font-family: Raleway;
+  src: url("Raleway-VariableFont_wght.ttf");
+}
+@font-face {font-family: Lato;
+  src: url("Lato-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body{
+  font-family: lato;
 }
 
 header {
@@ -12,6 +23,7 @@ header {
   align-items: center;
   flex-direction: column;
   background-color: #08b57b;
+  font-family: Raleway;
   min-height: 50vh; /* Set a minimum height to ensure content is visible */
   color: #fff;
   width: 100%;
@@ -78,7 +90,7 @@ main h3 {
   flex-wrap: wrap;
   width: 100%;
   max-width: 480px; /* Set maximum width */
-  font-size: 2vw; /* Adjust font size relative to viewport width */
+  font-size: 2.2vw; /* Adjust font size relative to viewport width */
   background-color: #008006;
 }
 
@@ -142,7 +154,7 @@ footer a {
   }
   
   main h3 {
-    font-size: 3vw;
+    font-size: 3.8vw;
   }
   
   main p {
@@ -175,7 +187,7 @@ footer a {
   }
   
   main h3 {
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
+    font-size: 2.9vw; /* Adjust font size for larger tablets */
   }
   
   main p {

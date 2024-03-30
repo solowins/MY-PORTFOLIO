@@ -1,9 +1,21 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
+@font-face {font-family: Raleway;
+  src: url("Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {font-family: Lato;
+  src: url("Lato-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: Lato;
 }
 
 header {
@@ -13,6 +25,7 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   background-color: #08b57b;
+  font-family: Raleway;
   min-height: 50vh;
   color: #fff;
   width: 100%;
