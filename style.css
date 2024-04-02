@@ -66,6 +66,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 4vw;
   width: 10vw;
   /* Adjust width relative to viewport width */
   text-align: center;
@@ -258,7 +259,7 @@ header h1 {
   }
   
   .nl {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
   
   .search-input {
@@ -315,7 +316,7 @@ header h1 {
   }
   
   .nl {
-    font-size: 4.5vw; /* Adjust font size for larger tablets */
+    font-size: 3.5vw; /* Adjust font size for larger tablets */
   }
   
   .search-input {
