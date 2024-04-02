@@ -218,7 +218,7 @@ header h1 {
   background-size: cover;
 }
 
-i {
+.nl i {
   padding-right: 3px;
 }
 
@@ -266,6 +266,10 @@ i {
   }
 
   .main-section{
+    height: 50vh;
+  }
+
+  .sections{
     height: 50vh;
   }
   
