@@ -263,22 +263,8 @@ i {
   .sections div {
     font-size: 4vw;
     height: 45%;
-    border-radius: 4%;
-  }
-  .section-1 {
-    background-size: contain;
-    background-repeat: no-repeat;
   }
   
-  .section-2 {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .section-3 {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
 
 /* Targeting larger tablets */
@@ -325,22 +311,6 @@ i {
   
   .sections div {
     font-size: 3vw; /* Adjust font size for larger tablets */
-    height: 75%;
-    border-radius: 4%;
-  }
-  
-  .section-1 {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .section-2 {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .section-3 {
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 45%;
   }
 }
