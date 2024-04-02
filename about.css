@@ -205,6 +205,9 @@ footer a {
     margin: 0 1.5vw; /* Adjust margin for larger tablets */
   }
   
+  footer {
+    min-height: 30vh; /* Set a minimum height to ensure content is visible */
+  }
   .footer-1 {
     font-size: 5.5vw; /* Adjust font size for larger tablets */
   }
