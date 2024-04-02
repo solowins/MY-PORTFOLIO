@@ -236,6 +236,7 @@ header h1 {
   
   .intro-heading {
     width: 20vw;
+    font-size: 4vw;
   }
   
   .h-text {
@@ -293,6 +294,7 @@ header h1 {
   
   .intro-heading {
     width: 15vw; /* Adjust width for larger tablets */
+    font-size: 7vw;
   }
   
   .h-text {
