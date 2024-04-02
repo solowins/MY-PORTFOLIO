@@ -108,7 +108,7 @@ header h1 {
 .nl {
   display: flex;
   list-style-type: none;
-  width: 80%;
+  width: 85%;
   /* Adjust width relative to parent container */
   justify-content: space-evenly;
   align-items: center;
