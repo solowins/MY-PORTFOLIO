@@ -31,6 +31,10 @@ header {
   width: 100%;
 }
 
+.logo i {
+  color: #000;
+}
+
 header h1 {
   font-size: 6vw;
 }
