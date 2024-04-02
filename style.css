@@ -142,7 +142,7 @@ header h1 {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
   color: #fff;
   font-size: 2vw;
   /* Adjust font size relative to viewport width */
@@ -258,7 +258,7 @@ header h1 {
   }
   
   .nl {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   .search-input {
@@ -315,7 +315,7 @@ header h1 {
   }
   
   .nl {
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
+    font-size: 4.5vw; /* Adjust font size for larger tablets */
   }
   
   .search-input {
@@ -325,5 +325,13 @@ header h1 {
   .sections div {
     font-size: 3vw; /* Adjust font size for larger tablets */
     height: 45%;
+  }
+
+  .main-section{
+    height: 50vh;
+  }
+
+  .sections{
+    height: 50vh;
   }
 }
