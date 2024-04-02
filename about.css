@@ -93,7 +93,7 @@ main h3 {
   text-align: center;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 480px; /* Set maximum width */
+  max-width: 500px; /* Set maximum width */
   font-size: 2vw; /* Adjust font size relative to viewport width */
   background-color: #008006;
 }
@@ -201,7 +201,7 @@ footer a {
   }
   
   main p {
-    font-size: 3.5vw; /* Adjust font size for larger tablets */
+    font-size: 3.8vw; /* Adjust font size for larger tablets */
     margin: 0 1.5vw; /* Adjust margin for larger tablets */
   }
   
