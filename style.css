@@ -236,7 +236,7 @@ header h1 {
   
   .intro-heading {
     width: 20vw;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   
   .h-text {
@@ -278,6 +278,7 @@ header h1 {
   .sections div {
     font-size: 4vw;
     height: 45%;
+    width: 45%;
   }
   
 }
@@ -293,8 +294,8 @@ header h1 {
   }
   
   .intro-heading {
-    width: 20vw; /* Adjust width for larger tablets */
-    font-size: 5vw;
+    width: 15vw; /* Adjust width for larger tablets */
+    font-size: 6vw;
   }
   
   .h-text {
@@ -331,10 +332,15 @@ header h1 {
   }
 
   .main-section{
-    height: 50vh;
+    height: 70vh;
   }
 
   .sections{
-    height: 50vh;
+    height: 70vh;
+  }
+  .sections div {
+    font-size: 4vw;
+    height: 45%;
+    width: 45%;
   }
 }
