@@ -277,8 +277,8 @@ header h1 {
   
   .sections div {
     font-size: 4vw;
-    height: 45%;
-    width: 45%;
+    height: 48%;
+    width: 48%;
   }
   
 }
@@ -336,7 +336,131 @@ header h1 {
   }
 
   .sections{
+    height: 0vh;
+  }
+  .sections div {
+    font-size: 4vw;
+    height: 45%;
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    font-size: 3.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  nav {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  .intro-heading {
+    width: 15vw; /* Adjust width for larger tablets */
+    font-size: 6vw;
+  }
+  
+  .h-text {
+    font-size: 8vw; /* Adjust font size for larger tablets */
+  }
+  
+  .intro-paragraph {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+
+  ::placeholder{
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  header h1 {
+    font-size: 6vw; /* Adjust font size for larger tablets */
+  }
+  
+  .header-paragraph {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+  
+  .nl {
+    font-size: 3.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  .search-input {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  .sections div {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+    height: 45%;
+  }
+
+  .main-section{
     height: 70vh;
+  }
+
+  .sections{
+    height: 70vh;
+  }
+  .sections div {
+    font-size: 4vw;
+    height: 45%;
+    width: 45%;
+  }
+}
+
+/* For iPad Air in landscape orientation */
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  /* Your styles for iPad Air in landscape mode */
+  header {
+    font-size: 3.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  nav {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  .intro-heading {
+    width: 15vw; /* Adjust width for larger tablets */
+    font-size: 6vw;
+  }
+  
+  .h-text {
+    font-size: 8vw; /* Adjust font size for larger tablets */
+  }
+  
+  .intro-paragraph {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+
+  ::placeholder{
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  header h1 {
+    font-size: 6vw; /* Adjust font size for larger tablets */
+  }
+  
+  .header-paragraph {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+  }
+  
+  .nl {
+    font-size: 3.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  .search-input {
+    font-size: 2.5vw; /* Adjust font size for larger tablets */
+  }
+  
+  .sections div {
+    font-size: 3vw; /* Adjust font size for larger tablets */
+    height: 45%;
+  }
+
+  .main-section{
+    height: 100vh;
+  }
+
+  .sections{
+    height: 200vh;
   }
   .sections div {
     font-size: 4vw;
