@@ -336,7 +336,7 @@ header h1 {
   }
 
   .sections{
-    height: 0vh;
+    height: 60vh;
   }
   .sections div {
     font-size: 4vw;
