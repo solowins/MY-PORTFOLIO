@@ -17,8 +17,13 @@
   /* Include padding and border in element's total width and height */
 }
 
+html{
+  font-size: 1.3rem;
+}
+
 body{
   font-family: lato;
+  min-height: 100vh;
 }
 
 header {
@@ -30,7 +35,6 @@ header {
   font-family: Raleway;
   min-height: 50vh;
   color: #fff;
-  font-size: 2vw;
   /* Adjust font size relative to viewport width */
 }
 
@@ -40,18 +44,19 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   background-color: #000;
-  height: 8vh;
+  min-height: 8vh;
   /* Reduce header height for smaller screens */
   width: 100%;
-  font-size: 1.5vw;
   /* Adjust font size relative to viewport width */
 }
+
 
 .logo {
   width: 14vw;
   /* Adjust logo width relative to viewport width */
   height: 8vh;
   display: flex;
+  font-size: 0.7em;
   justify-content: center;
   align-items: center;
   background-color: #fff;
@@ -66,17 +71,16 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 3vw;
-  width: 10vw;
+  font-size: 1.5em;
   /* Adjust width relative to viewport width */
   text-align: center;
   /* Adjust margin relative to viewport width */
 }
 
 .h-text {
-  font-size: 7vw;
+  font-size: 2.6em;
   /* Adjust font size relative to viewport width */
-  color: aliceblue;
+  color:#fff;
 }
 
 .intro-paragraph {
@@ -86,22 +90,22 @@ nav {
   text-align: center;
   width: 70%;
   /* Adjust width relative to parent container */
-  max-width: 450px;
+  max-width: 16em;
   /* Set maximum width */
   margin: 0 auto;
   /* Center horizontally */
-  font-size: 2vw;
+  font-size: 1.3em;
   /* Adjust font size relative to viewport width */
   background-color: #008006;
 }
 
 header h1 {
-  font-size: 6vw;
+  font-size: 4em;
   /* Adjust font size relative to viewport width */
 }
 
 .header-paragraph {
-  font-size: 2vw;
+  font-size: 1.4em;
   /* Adjust font size relative to viewport width */
 }
 
@@ -113,7 +117,7 @@ header h1 {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.2em;
   /* Adjust font size relative to viewport width */
 }
 
@@ -123,7 +127,7 @@ header h1 {
 }
 
 .one:hover, .two:hover, .three:hover {
-  background-color: #305e03;
+  background-color: rgba(48, 94, 3, 0.7);
   height: 8vh;
   width: 14vw;
 }
@@ -137,7 +141,6 @@ header h1 {
   align-items: center;
 }
 
-
 .search-input {
   width: 70%;
   background: transparent;
@@ -145,17 +148,17 @@ header h1 {
   outline: none;
   border-bottom: 1.5px solid #fff;
   color: #fff;
-  font-size: 2vw;
+  font-size: 0.9em;
   /* Adjust font size relative to viewport width */
 }
 
 ::placeholder {
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 0.9em;
 }
 
 .main-section {
-  height: 70vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -187,160 +190,194 @@ header h1 {
   justify-content: center;
   align-items: center;
   border-radius: 4%;
-  font-size: 2vw;
+  font-size: 1.2em;
   /* Adjust font size relative to viewport width */
 }
 
 .sections a {
   text-decoration: none;
   color: #008006;
-  padding: 1vw 2vw;
+  padding: 0.6em 1.2em;
   background-color: #f7fff0;
-  border-radius: 2.5vw;
+  border-radius: 1.5em;
   text-align: center;
 }
 
 .sections a:hover {
-  color: #91f32f;
+  color: rgba(145, 243, 47, 0.8);
 }
 
 .section-1 {
   background-image: url('img/portfolio-03.jpg');
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-2 {
   background-image: url('img/portfolio-04.jpg');
+  background-position: center;
   background-size: cover;
+  background-repeat:no-repeat;
 }
 
 .section-3 {
   background-image: url('img/portfolio-09.jpg');
+  background-position: center;
   background-size: cover;
+  background-repeat:no-repeat;
 }
 
 .nl i {
-  padding-right: 3px;
+  padding-right: 0.1em;
 }
 
 /* Media Queries for Responsive Design */
 
-@media screen and (max-width: 768px) {
-  header {
-    font-size: 4vw;
-  }
-  
-  nav {
-    font-size: 3vw;
-  }
-  
-  .intro-heading {
-    width: 20vw;
-    font-size: 4vw;
-  }
-  
-  .h-text {
-    font-size: 10vw;
-  }
-  
-  .intro-paragraph {
-    font-size: 4vw;
-  }
-
-  ::placeholder{
-    font-size: 3vw;
-  }
-  
-  header h1 {
-    font-size: 8vw;
-  }
-  
-  .header-paragraph {
-    font-size: 4vw;
-  }
-  
-  .nl {
-    font-size: 3.5vw;
-  }
-  
-  .search-input {
-    font-size: 3vw;
-  }
-
-  .main-section{
-    height: 50vh;
-  }
-
-  .sections{
-    height: 50vh;
-  }
-  
-  .sections div {
-    font-size: 4vw;
-    height: 48%;
-    width: 48%;
-  }
-  
+@media screen and (max-width: 400px) {
+  nav{
+  font-size: 0.5em;
 }
 
-/* Targeting larger tablets */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  header {
-    font-size: 3.5vw; /* Adjust font size for larger tablets */
-  }
-  
-  nav {
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
-  }
-  
   .intro-heading {
-    width: 15vw; /* Adjust width for larger tablets */
-    font-size: 6vw;
+    font-size: 1.3em;
   }
   
   .h-text {
-    font-size: 8vw; /* Adjust font size for larger tablets */
+    font-size: 1.8em;
   }
   
   .intro-paragraph {
-    font-size: 3vw; /* Adjust font size for larger tablets */
+    font-size: 0.7em;
   }
 
   ::placeholder{
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
+    font-size: 0.82em;
   }
   
   header h1 {
-    font-size: 6vw; /* Adjust font size for larger tablets */
+    font-size: 2.1em;
   }
   
   .header-paragraph {
-    font-size: 3vw; /* Adjust font size for larger tablets */
+    font-size: 1em;
   }
   
-  .nl {
-    font-size: 3.5vw; /* Adjust font size for larger tablets */
-  }
+  
   
   .search-input {
-    font-size: 2.5vw; /* Adjust font size for larger tablets */
-  }
-  
-  .sections div {
-    font-size: 3vw; /* Adjust font size for larger tablets */
-    height: 45%;
+    font-size: 1em;
   }
 
   .main-section{
-    height: 70vh;
+    min-height: 100vh;
+    min-height: 100svh;
   }
 
   .sections{
-    height: 60vh;
+    display: flex;
+    height: 140vh;
+    flex-direction: column;
   }
+  
   .sections div {
-    font-size: 4vw;
-    height: 45%;
-    width: 45%;
+    height: 27%;
+    width: 70%
   }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+  nav{
+    font-size: 0.7em;
+  }
+  
+    .intro-heading {
+      font-size: 1.9em;
+    }
+    
+    .h-text {
+      font-size: 1.6em;
+    }
+    
+    .intro-paragraph {
+      font-size: 0.9em;
+    }
+  
+    ::placeholder{
+      font-size: 0.85em;
+    }
+    
+    header h1 {
+      font-size: 2.1em;
+    }
+    
+    .header-paragraph {
+      font-size: 1em;
+    }
+    .search-input {
+      font-size: 1em;
+    }
+  
+    .main-section{
+      min-height: 100vh;
+      min-height: 100svh;
+    }
+  
+    .sections{
+      display: flex;
+      height: 140vh;
+      flex-direction: column;
+    }
+    
+    .sections div {
+      height: 27%;
+      width: 70%
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+  nav{
+    font-size: 1.3em;
+  }
+
+  .intro-heading {
+    font-size: 2.4em;
+  }
+
+   .h-text {
+      font-size: 2.2em;
+    }
+
+    .intro-paragraph {
+      font-size: 1.7em;
+    }
+
+    ::placeholder{
+      font-size: 0.9em;
+    }
+
+    header h1 {
+      font-size: 4em;
+    }
+
+    .header-paragraph {
+      font-size: 1.4em;
+    }
+    .search-input {
+      font-size: 0.9em;
+    }
+    .main-section{
+      min-height: 100vh;
+      min-height: 100svh;
+    }
+    .sections{
+      display: flex;
+      height: 140vh;
+      flex-direction: column;
+    }
+    
+    .sections div {
+      height: 27%;
+      width: 70%
+    }
 }
